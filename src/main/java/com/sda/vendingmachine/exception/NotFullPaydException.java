@@ -1,4 +1,5 @@
 package com.sda.vendingmachine.exception;
 
-public class NotFullPaydException {
+public class NotFullPaydException extends Exception {
+
 }
