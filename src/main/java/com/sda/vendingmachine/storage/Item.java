@@ -16,4 +16,11 @@ public class Item {
     private int id;
     private String name;
     private BigDecimal price;
+
+    @Override
+    public String toString(){
+        return  " Produsul are numele:  " +  name  +    "   si pretul   " +   price  ;
+
+
+    }
 }
